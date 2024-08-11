@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Countdown.Introduction">
+    <VerticalStackLayout Spacing="10" VerticalOptions="CenterAndExpand">
+        <Label Text="Welcome to Countdown"
+               FontSize="24"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="StartAndExpand" />
+        
+        <StackLayout WidthRequest="500">
+            <VerticalStackLayout x:Name="layout">
+                <Label Text="This is a XAML App for a UK show called 'Countdown'
+                             This app is specifically for 2 players                             
+                             If you would like to play - please click continue to login."
+                       FontSize="16"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Start" />
+            </VerticalStackLayout>
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>

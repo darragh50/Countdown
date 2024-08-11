@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Countdown.GamePage">
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Spacing="10">
+        
+            <Label Text="Countdown" 
+                   FontSize="20"
+                   TextColor="Black"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="Start"/>
+
+        <Label x:Name="CurrentRoundLabel" 
+               Text="Round 1 of 6" FontSize="20" />
+        <Label x:Name="LetterGrid" 
+               Text="" FontSize="20" />
+        <Label x:Name="TimerLabel" 
+               Text="Timer" FontSize="20" />
+        <Label x:Name="ResultLabel" 
+               Text="" FontSize="20" />
+
+        <StackLayout HorizontalOptions="Center">
+            <HorizontalStackLayout 
+                x:Name="topLevel" VerticalOptions="CenterAndExpand">
+            </HorizontalStackLayout>
+        </StackLayout>
+
+        <StackLayout HorizontalOptions="Center">
+            <HorizontalStackLayout 
+                x:Name="middleLevel1" VerticalOptions="CenterAndExpand">
+            </HorizontalStackLayout>
+        </StackLayout>
+        
+        <StackLayout HorizontalOptions="Center">
+            <HorizontalStackLayout
+                x:Name="middleLevel2" VerticalOptions="CenterAndExpand">
+            </HorizontalStackLayout>
+        </StackLayout>
+        <Button x:Name="RestartButton" Text="Restart Game" Clicked="OnRestartGameClicked" IsVisible="False" />
+    </StackLayout>
+</ContentPage>
+

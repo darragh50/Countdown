@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Countdown.HowTo">
+    <VerticalStackLayout Spacing="10" VerticalOptions="CenterAndExpand">
+    <Label Text="How To Play"
+               FontSize="24"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="StartAndExpand" />
+    <StackLayout WidthRequest="500">
+        <VerticalStackLayout x:Name="layout">
+            <Label Text="Step 1:"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+                <Label Text="Select a consonant or vowel until you have picked 9 letters."
+                       FontSize="16"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+            <Label Text="Step 2:"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+            <Label Text="A 30 second timer will begin."
+                       FontSize="16"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+            <Label Text="Step 3:"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+            <Label Text="Both players must find the largest word of the 9 letters and type it into the designated box."
+                       FontSize="16"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+            <Label Text="Step 4:"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+            <Label Text="After the timer - whichever player has the longest English word wins."
+                       FontSize="16"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+            <Label Text="Step 5:"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+            <Label Text="Opposite player will decide the letters until 6 rounds have been played. Highest score wins."
+                       FontSize="16"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+            </VerticalStackLayout>
+    </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>
